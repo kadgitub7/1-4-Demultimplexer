@@ -81,16 +81,16 @@ Using inputs **E**, **S₁**, **S₀**, and **I**, and outputs **Y₀**, **Y₁*
 From this table, the Boolean equations for the outputs are:
 
 \[
-Y_0 = E \cdot I \cdot \overline{S_1} \cdot \overline{S_0}
+$$Y_0 = E \cdot I \cdot \overline{S_1} \cdot \overline{S_0}$$
 \]
 \[
-Y_1 = E \cdot I \cdot \overline{S_1} \cdot S_0
+$$Y_1 = E \cdot I \cdot \overline{S_1} \cdot S_0$$
 \]
 \[
-Y_2 = E \cdot I \cdot S_1 \cdot \overline{S_0}
+$$Y_2 = E \cdot I \cdot S_1 \cdot \overline{S_0}$$
 \]
 \[
-Y_3 = E \cdot I \cdot S_1 \cdot S_0
+$$Y_3 = E \cdot I \cdot S_1 \cdot S_0$$
 \]
 
 In more programming-style notation:
@@ -161,7 +161,7 @@ In the Verilog implementation, these relationships are encoded directly using co
 
 ---
 
-![1:4 Demultiplexer Circuit](imageAssets/demux14Circuit.png)
+![1:4 Demultiplexer Circuit](imageAssets/oneFourDemuxCircuit.png)
 
 ## Waveform Diagram
 
@@ -181,6 +181,7 @@ Outputs:
 ```
 
 ---
+![1:4 Demultiplexer Waveform](imageAssets/oneFourDemuxWaveform.png)
 
 ## Testbench Output
 
