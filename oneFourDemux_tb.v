@@ -5,7 +5,7 @@ module oneForDemux_tb();
     reg E,S1,S0,I;
     wire Y0,Y1,Y2,Y3;
     
-    oneFourDemux uut(E,S1,S2,I,Y0,Y1,Y2,Y3);
+    oneFourDemux uut(E,S1,S0,I,Y0,Y1,Y2,Y3);
     integer i;
     initial begin
         for(i=0;i<4;i=i+1)begin
